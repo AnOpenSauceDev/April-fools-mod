@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "aprilfools",
+  "version": "${version}",
+  "name": "Aprilfools",
+  "description": "name says all.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/aprilfools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "an.opensauce.aprilfools.client.AprilfoolsClient"
+    ],
+    "main": [
+      "an.opensauce.aprilfools.Aprilfools"
+    ]
+  },
+  "mixins": [
+    "aprilfools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
